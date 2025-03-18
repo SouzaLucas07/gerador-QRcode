@@ -1,4 +1,4 @@
-const mainPrompt = [
+const promptMain = [
     {
     name: "select",
     description: "Esolha a ferramenta (1 - QRCODE ou 2 - PASSWORD)",
@@ -6,4 +6,6 @@ const mainPrompt = [
     message: "Escolha entre 1 e 2",
     required: true,
     }
-]
+];
+
+export default promptMain;
